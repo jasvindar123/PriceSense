@@ -1,0 +1,49 @@
+┌─────────┬───────────┬───────────────────┬────────────────────┬───────────────────┬───────────────────┬─────────────────┬────────────────────┐
+│ persona │ city_tier │     occasion      │ optimal_price_band │ optimal_price_max │ immediate_revenue │ mdp_value_score │ future_value_added │
+│ varchar │  varchar  │      varchar      │       double       │      double       │      double       │     double      │       double       │
+├─────────┼───────────┼───────────────────┼────────────────────┼───────────────────┼───────────────────┼─────────────────┼────────────────────┤
+│ budget  │ Tier 1    │ festive           │              140.0 │             149.0 │           5556.49 │   16967009379.8 │     16967003823.31 │
+│ budget  │ Tier 1    │ religious-fasting │               80.0 │              89.0 │           1396.73 │      55560042.9 │        55558646.17 │
+│ budget  │ Tier 1    │ daily snack       │               50.0 │              59.0 │           1163.57 │      2401144.87 │          2399981.3 │
+│ budget  │ Tier 1    │ marathon-prep     │               30.0 │              39.0 │            498.15 │      1372804.23 │         1372306.08 │
+│ budget  │ Tier 1    │ late-night        │              140.0 │             149.0 │            271.55 │         17437.5 │           17165.95 │
+│ budget  │ Tier 1    │ on-the-go         │               80.0 │              89.0 │             172.7 │         2819.41 │            2646.71 │
+│ budget  │ Tier 1    │ road-trip         │              110.0 │             119.0 │            280.16 │         2055.23 │            1775.07 │
+│ budget  │ Tier 1    │ gym               │               60.0 │              69.0 │            146.13 │         1049.14 │             903.01 │
+│ budget  │ Tier 2    │ on-the-go         │              140.0 │             149.0 │           1772.29 │   1886391659.39 │       1886389887.1 │
+│ budget  │ Tier 2    │ religious-fasting │               80.0 │              89.0 │           3307.66 │   1266313653.06 │       1266310345.4 │
+│ budget  │ Tier 2    │ daily snack       │               90.0 │              99.0 │           2490.34 │     39116841.58 │        39114351.24 │
+│ budget  │ Tier 2    │ marathon-prep     │               60.0 │              69.0 │           1552.31 │      4557171.67 │         4555619.36 │
+│ budget  │ Tier 2    │ road-trip         │               50.0 │              59.0 │            516.24 │      1844761.52 │         1844245.28 │
+│ budget  │ Tier 2    │ festive           │               40.0 │              49.0 │            316.87 │       112310.67 │           111993.8 │
+│ budget  │ Tier 2    │ late-night        │              140.0 │             149.0 │            323.68 │         4673.45 │            4349.77 │
+│ budget  │ Tier 2    │ gym               │               10.0 │              19.0 │             39.95 │         3551.34 │            3511.39 │
+│ budget  │ Tier 3    │ gym               │               90.0 │              99.0 │            3888.1 │   3555776129.13 │      3555772241.03 │
+│ budget  │ Tier 3    │ late-night        │               40.0 │              49.0 │            584.59 │     66256249.42 │        66255664.83 │
+│ budget  │ Tier 3    │ on-the-go         │               50.0 │              59.0 │           1225.64 │     16395378.95 │        16394153.31 │
+│ budget  │ Tier 3    │ daily snack       │               50.0 │              59.0 │            981.83 │       320675.48 │          319693.65 │
+│   ·     │   ·       │     ·             │                 ·  │                ·  │               ·   │            ·    │               ·    │
+│   ·     │   ·       │     ·             │                 ·  │                ·  │               ·   │            ·    │               ·    │
+│   ·     │   ·       │     ·             │                 ·  │                ·  │               ·   │            ·    │               ·    │
+│ unknown │ Tier 2    │ late-night        │               50.0 │              59.0 │            111.61 │         1611.46 │            1499.85 │
+│ unknown │ Tier 2    │ festive           │               80.0 │              89.0 │            183.29 │          577.73 │             394.44 │
+│ unknown │ Tier 2    │ gym               │               10.0 │              19.0 │              27.4 │          520.45 │             493.05 │
+│ unknown │ Tier 2    │ road-trip         │               50.0 │              59.0 │            162.38 │          344.25 │             181.87 │
+│ unknown │ Tier 3    │ daily snack       │               10.0 │              19.0 │             28.83 │         4130.86 │            4102.03 │
+│ unknown │ Tier 3    │ gym               │               10.0 │              19.0 │            130.66 │         1454.28 │            1323.62 │
+│ unknown │ Tier 3    │ late-night        │               30.0 │              39.0 │             123.8 │          641.41 │             517.61 │
+│ unknown │ Tier 3    │ festive           │               50.0 │              59.0 │             128.8 │          603.51 │             474.71 │
+│ unknown │ Tier 3    │ on-the-go         │               40.0 │              49.0 │            103.12 │          560.09 │             456.97 │
+│ unknown │ Tier 3    │ religious-fasting │                0.0 │               9.0 │            109.73 │          514.15 │             404.42 │
+│ unknown │ Tier 3    │ road-trip         │               10.0 │              19.0 │             35.85 │          337.24 │             301.39 │
+│ unknown │ Tier 3    │ marathon-prep     │               30.0 │              39.0 │             98.36 │           289.3 │             190.94 │
+│ unknown │ Unknown   │ religious-fasting │               10.0 │              19.0 │             25.41 │        21264.62 │           21239.21 │
+│ unknown │ Unknown   │ daily snack       │               10.0 │              19.0 │            492.38 │         2307.09 │            1814.71 │
+│ unknown │ Unknown   │ on-the-go         │               10.0 │              19.0 │             44.72 │         1231.68 │            1186.96 │
+│ unknown │ Unknown   │ marathon-prep     │               10.0 │              19.0 │             23.57 │         1107.47 │             1083.9 │
+│ unknown │ Unknown   │ festive           │               10.0 │              19.0 │             27.27 │          281.21 │             253.94 │
+│ unknown │ Unknown   │ road-trip         │               10.0 │              19.0 │             31.48 │           147.5 │             116.02 │
+│ unknown │ Unknown   │ gym               │               10.0 │              19.0 │             27.36 │           128.2 │             100.84 │
+│ unknown │ Unknown   │ late-night        │                0.0 │               9.0 │             15.02 │           70.38 │              55.36 │
+└─────────┴───────────┴───────────────────┴────────────────────┴───────────────────┴───────────────────┴─────────────────┴────────────────────┘
+  160 rows (40 shown)                                        use .last to show entire result                                        8 columns

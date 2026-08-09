@@ -1,0 +1,26 @@
+┌───────────────────┬──────────────────┬───────────┬─────────────┬───────────────┐
+│     occasion      │     category     │ avg_price │ total_units │ total_revenue │
+│      varchar      │     varchar      │  double   │   int128    │    double     │
+├───────────────────┼──────────────────┼───────────┼─────────────┼───────────────┤
+│ late-night        │ protein bar      │     29.28 │       12485 │     400042.89 │
+│ late-night        │ protein shake    │     31.56 │        9668 │     320766.15 │
+│ late-night        │ supplement       │     42.53 │        6100 │     254934.93 │
+│ late-night        │ meal replacement │     35.56 │        7048 │     246131.72 │
+│ religious-fasting │ protein bar      │     29.36 │        7933 │     233131.09 │
+│ daily snack       │ protein bar      │      27.9 │        4544 │     173630.65 │
+│ gym               │ protein shake    │     32.57 │        4946 │     169195.13 │
+│ daily snack       │ meal replacement │     35.13 │        4004 │     149963.97 │
+│ religious-fasting │ meal replacement │     35.14 │        4284 │     148978.53 │
+│ late-night        │ healthy snack    │     19.63 │        7787 │     146096.86 │
+│ daily snack       │ protein shake    │     29.98 │        4533 │      140624.2 │
+│ religious-fasting │ protein shake    │     31.33 │        4586 │     134338.62 │
+│ road-trip         │ protein shake    │     32.25 │        3776 │     130255.98 │
+│ festive           │ meal replacement │     33.68 │        3250 │     128778.71 │
+│ festive           │ protein bar      │      29.5 │        4111 │     128459.79 │
+│ festive           │ protein shake    │     29.53 │        3655 │      127229.4 │
+│ on-the-go         │ protein bar      │     28.57 │        5292 │     126790.32 │
+│ road-trip         │ protein bar      │      27.9 │        4170 │     123328.59 │
+│ religious-fasting │ supplement       │     43.58 │        3331 │     122707.85 │
+│ marathon-prep     │ protein bar      │     28.58 │        4729 │     122542.21 │
+└───────────────────┴──────────────────┴───────────┴─────────────┴───────────────┘
+  20 rows                                                              5 columns

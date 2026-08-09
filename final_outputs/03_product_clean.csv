@@ -1,0 +1,49 @@
+┌────────────┬───────────────────┬──────────────────────────────────────────────────────┬──────────────────────────────────┬───────────┐
+│ product_id │     category      │                        claims                        │         ingredient_tags          │ pack_size │
+│  varchar   │      varchar      │                       varchar                        │             varchar              │  varchar  │
+├────────────┼───────────────────┼──────────────────────────────────────────────────────┼──────────────────────────────────┼───────────┤
+│ P001       │ electrolyte drink │ nut-free, clean-label                                │ monk-fruit, oats, collagen       │ Single    │
+│ P002       │ meal replacement  │ plant-based, halal, kosher, low-sugar                │ whey, oats                       │ Single    │
+│ P003       │ protein shake     │ jain-friendly                                        │ monk-fruit                       │ Single    │
+│ P004       │ healthy snack     │ vegan                                                │ stevia                           │ 4-Pack    │
+│ P005       │ meal replacement  │ halal, low-sugar, vegan                              │ whey, stevia                     │ Single    │
+│ P006       │ protein shake     │ gluten-free, halal, kosher                           │ NULL                             │ Single    │
+│ P007       │ supplement        │ keto-friendly, plant-based                           │ oats, monk-fruit, soy            │ 12-Pack   │
+│ P008       │ protein bar       │ diabetic-friendly, kosher                            │ stevia, monk-fruit, almond-flour │ Single    │
+│ P009       │ electrolyte drink │ clean-label                                          │ collagen, soy                    │ Single    │
+│ P010       │ healthy snack     │ clean-label, vegan, nut-free, kosher                 │ pea-protein, oats, almond-flour  │ Single    │
+│ P011       │ protein shake     │ kosher, jain-friendly, plant-based                   │ collagen                         │ Single    │
+│ P012       │ healthy snack     │ plant-based                                          │ whey, monk-fruit                 │ Single    │
+│ P013       │ electrolyte drink │ kosher, diabetic-friendly, clean-label               │ soy, collagen                    │ Single    │
+│ P014       │ protein shake     │ keto-friendly, gluten-free                           │ pea-protein                      │ 4-Pack    │
+│ P015       │ meal replacement  │ clean-label, diabetic-friendly                       │ soy, stevia, monk-fruit          │ Single    │
+│ P016       │ protein shake     │ nut-free                                             │ soy                              │ Single    │
+│ P017       │ electrolyte drink │ jain-friendly                                        │ collagen, soy                    │ 4-Pack    │
+│ P018       │ protein bar       │ diabetic-friendly                                    │ whey                             │ Single    │
+│ P019       │ meal replacement  │ vegan, halal, high-protein                           │ collagen                         │ 12-Pack   │
+│ P020       │ electrolyte drink │ low-sugar, high-protein                              │ collagen, oats, monk-fruit       │ 4-Pack    │
+│  ·         │       ·           │            ·                                         │          ·                       │   ·       │
+│  ·         │       ·           │            ·                                         │          ·                       │   ·       │
+│  ·         │       ·           │            ·                                         │          ·                       │   ·       │
+│ P131       │ protein shake     │ high-protein, low-sugar, nut-free                    │ collagen, monk-fruit             │ 12-Pack   │
+│ P132       │ protein shake     │ plant-based                                          │ monk-fruit                       │ 4-Pack    │
+│ P133       │ protein bar       │ diabetic-friendly, vegan, clean-label, gluten-free   │ pea-protein, stevia, collagen    │ 4-Pack    │
+│ P134       │ protein bar       │ clean-label, high-protein, nut-free                  │ whey, collagen, monk-fruit       │ Single    │
+│ P135       │ electrolyte drink │ gluten-free, low-sugar, plant-based, vegan           │ pea-protein                      │ Single    │
+│ P136       │ electrolyte drink │ high-protein, nut-free                               │ stevia, collagen, oats           │ 4-Pack    │
+│ P137       │ protein shake     │ kosher                                               │ oats, whey                       │ Single    │
+│ P138       │ meal replacement  │ nut-free, jain-friendly                              │ soy, oats, pea-protein           │ Single    │
+│ P139       │ healthy snack     │ high-protein, low-sugar, clean-label, jain-friendly  │ monk-fruit                       │ Single    │
+│ P140       │ electrolyte drink │ vegan, plant-based, keto-friendly                    │ soy, collagen, monk-fruit        │ Single    │
+│ P141       │ healthy snack     │ gluten-free, kosher, diabetic-friendly               │ almond-flour, collagen           │ 4-Pack    │
+│ P142       │ protein shake     │ gluten-free, high-protein, jain-friendly, kosher     │ almond-flour, oats               │ 12-Pack   │
+│ P143       │ protein bar       │ nut-free, kosher, keto-friendly                      │ stevia, oats, almond-flour       │ Single    │
+│ P144       │ meal replacement  │ halal, diabetic-friendly, low-sugar                  │ monk-fruit, collagen             │ 4-Pack    │
+│ P145       │ healthy snack     │ gluten-free, jain-friendly, plant-based              │ whey, stevia                     │ Single    │
+│ P146       │ protein shake     │ diabetic-friendly, plant-based                       │ whey, collagen, monk-fruit       │ Single    │
+│ P147       │ protein shake     │ jain-friendly, diabetic-friendly                     │ monk-fruit, stevia               │ Single    │
+│ P148       │ protein bar       │ jain-friendly, halal, clean-label, diabetic-friendly │ soy, monk-fruit                  │ Single    │
+│ P149       │ protein bar       │ clean-label                                          │ oats, stevia, collagen           │ Single    │
+│ P150       │ meal replacement  │ halal, low-sugar                                     │ oats, monk-fruit, almond-flour   │ Single    │
+└────────────┴───────────────────┴──────────────────────────────────────────────────────┴──────────────────────────────────┴───────────┘
+  150 rows (40 shown)                                    use .last to show entire result                                     5 columns

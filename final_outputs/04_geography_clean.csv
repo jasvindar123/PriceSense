@@ -1,0 +1,49 @@
+┌───────────┬────────────┬───────────┬───────────────────┐
+│ order_id  │   state    │ city_tier │     occasion      │
+│  varchar  │  varchar   │  varchar  │      varchar      │
+├───────────┼────────────┼───────────┼───────────────────┤
+│ ORD000001 │ California │ Tier 2    │ on-the-go         │
+│ ORD000002 │ Colorado   │ Tier 1    │ late-night        │
+│ ORD000003 │ California │ Tier 3    │ marathon-prep     │
+│ ORD000004 │ Washington │ Tier 1    │ late-night        │
+│ ORD000005 │ Florida    │ Tier 2    │ late-night        │
+│ ORD000006 │ California │ Tier 1    │ late-night        │
+│ ORD000007 │ California │ Tier 2    │ marathon-prep     │
+│ ORD000008 │ Colorado   │ Tier 1    │ marathon-prep     │
+│ ORD000009 │ California │ Tier 2    │ marathon-prep     │
+│ ORD000010 │ Colorado   │ Tier 1    │ daily snack       │
+│ ORD000011 │ Florida    │ Tier 1    │ daily snack       │
+│ ORD000012 │ New York   │ Tier 3    │ on-the-go         │
+│ ORD000013 │ Washington │ Tier 2    │ religious-fasting │
+│ ORD000015 │ Illinois   │ Tier 2    │ gym               │
+│ ORD000016 │ Georgia    │ Tier 1    │ gym               │
+│ ORD000017 │ Colorado   │ Tier 1    │ late-night        │
+│ ORD000018 │ Georgia    │ Unknown   │ gym               │
+│ ORD000020 │ Colorado   │ Tier 1    │ late-night        │
+│ ORD000021 │ Florida    │ Unknown   │ religious-fasting │
+│ ORD000022 │ Illinois   │ Tier 2    │ gym               │
+│     ·     │    ·       │   ·       │  ·                │
+│     ·     │    ·       │   ·       │  ·                │
+│     ·     │    ·       │   ·       │  ·                │
+│ ORD049980 │ California │ Tier 2    │ late-night        │
+│ ORD049981 │ Illinois   │ Tier 2    │ on-the-go         │
+│ ORD049982 │ Washington │ Unknown   │ late-night        │
+│ ORD049983 │ New York   │ Tier 2    │ festive           │
+│ ORD049984 │ Texas      │ Tier 2    │ religious-fasting │
+│ ORD049986 │ Georgia    │ Tier 2    │ festive           │
+│ ORD049987 │ Illinois   │ Tier 2    │ religious-fasting │
+│ ORD049988 │ New York   │ Tier 2    │ on-the-go         │
+│ ORD049989 │ New York   │ Tier 1    │ late-night        │
+│ ORD049990 │ Florida    │ Unknown   │ road-trip         │
+│ ORD049991 │ Washington │ Tier 1    │ on-the-go         │
+│ ORD049992 │ Georgia    │ Tier 2    │ daily snack       │
+│ ORD049993 │ Texas      │ Tier 2    │ on-the-go         │
+│ ORD049994 │ California │ Tier 2    │ religious-fasting │
+│ ORD049995 │ Washington │ Unknown   │ late-night        │
+│ ORD049996 │ Washington │ Tier 1    │ late-night        │
+│ ORD049997 │ California │ Tier 2    │ gym               │
+│ ORD049998 │ California │ Tier 2    │ gym               │
+│ ORD049999 │ New York   │ Tier 3    │ late-night        │
+│ ORD050000 │ Florida    │ Tier 1    │ daily snack       │
+└───────────┴────────────┴───────────┴───────────────────┘
+  47581 rows (40 shown)                        4 columns

@@ -1,0 +1,49 @@
+┌─────────┬───────────┬───────────────────┬─────────────────────┬─────────────────────┬──────────────────┬─────────────┬─────────────────┐
+│ persona │ city_tier │     occasion      │ optimal_price_state │ optimal_price_point │ units_at_optimal │ max_revenue │ avg_order_value │
+│ varchar │  varchar  │      varchar      │       varchar       │        int32        │      int128      │   double    │     double      │
+├─────────┼───────────┼───────────────────┼─────────────────────┼─────────────────────┼──────────────────┼─────────────┼─────────────────┤
+│ budget  │ Tier 1    │ late-night        │ S6_50plus           │                  60 │             1630 │   335218.66 │          983.05 │
+│ budget  │ Tier 1    │ festive           │ S6_50plus           │                  60 │              397 │    87368.96 │         1480.83 │
+│ budget  │ Tier 1    │ religious-fasting │ S6_50plus           │                  60 │              287 │     73598.7 │          931.63 │
+│ budget  │ Tier 1    │ gym               │ S6_50plus           │                  60 │              432 │     52082.8 │           964.5 │
+│ budget  │ Tier 1    │ on-the-go         │ S6_50plus           │                  60 │              102 │    47767.52 │          884.58 │
+│ budget  │ Tier 1    │ daily snack       │ S6_50plus           │                  60 │              321 │    25185.78 │           475.2 │
+│ budget  │ Tier 1    │ road-trip         │ S6_50plus           │                  60 │              113 │    24902.49 │          444.69 │
+│ budget  │ Tier 1    │ marathon-prep     │ S5_40to49           │                  45 │              380 │    16339.55 │          907.75 │
+│ budget  │ Tier 2    │ on-the-go         │ S6_50plus           │                  60 │              273 │    95426.39 │         1363.23 │
+│ budget  │ Tier 2    │ religious-fasting │ S6_50plus           │                  60 │              462 │    77714.93 │          740.14 │
+│ budget  │ Tier 2    │ daily snack       │ S6_50plus           │                  60 │              280 │    55648.13 │          732.21 │
+│ budget  │ Tier 2    │ road-trip         │ S6_50plus           │                  60 │              355 │    45875.98 │          552.72 │
+│ budget  │ Tier 2    │ marathon-prep     │ S6_50plus           │                  60 │              328 │    38709.99 │          586.51 │
+│ budget  │ Tier 2    │ festive           │ S6_50plus           │                  60 │              364 │     34332.9 │          624.23 │
+│ budget  │ Tier 2    │ late-night        │ S6_50plus           │                  60 │              112 │    31222.55 │           529.2 │
+│ budget  │ Tier 2    │ gym               │ S6_50plus           │                  60 │              114 │    15998.46 │          253.94 │
+│ budget  │ Tier 3    │ on-the-go         │ S6_50plus           │                  60 │              652 │    52978.87 │         1232.07 │
+│ budget  │ Tier 3    │ gym               │ S6_50plus           │                  60 │              360 │    51152.93 │         1217.93 │
+│ budget  │ Tier 3    │ religious-fasting │ S6_50plus           │                  60 │              201 │    18670.31 │          274.56 │
+│ budget  │ Tier 3    │ daily snack       │ S6_50plus           │                  60 │              263 │    16067.31 │          486.89 │
+│   ·     │   ·       │     ·             │     ·               │                   · │                · │        ·    │             ·   │
+│   ·     │   ·       │     ·             │     ·               │                   · │                · │        ·    │             ·   │
+│   ·     │   ·       │     ·             │     ·               │                   · │                · │        ·    │             ·   │
+│ unknown │ Tier 2    │ late-night        │ S6_50plus           │                  60 │               39 │    13122.62 │          690.66 │
+│ unknown │ Tier 2    │ daily snack       │ S6_50plus           │                  60 │               20 │    10521.55 │           956.5 │
+│ unknown │ Tier 2    │ religious-fasting │ S2_10to19           │                  15 │              764 │     8714.91 │           174.3 │
+│ unknown │ Tier 2    │ festive           │ S6_50plus           │                  60 │               60 │     8380.77 │           310.4 │
+│ unknown │ Tier 3    │ festive           │ S6_50plus           │                  60 │               53 │    14541.05 │           969.4 │
+│ unknown │ Tier 3    │ daily snack       │ S6_50plus           │                  60 │               42 │     8649.25 │          576.62 │
+│ unknown │ Tier 3    │ late-night        │ S6_50plus           │                  60 │               32 │     6645.51 │          604.14 │
+│ unknown │ Tier 3    │ on-the-go         │ S6_50plus           │                  60 │               27 │     3459.35 │          384.37 │
+│ unknown │ Tier 3    │ gym               │ S2_10to19           │                  15 │              274 │     3266.55 │          130.66 │
+│ unknown │ Tier 3    │ road-trip         │ S6_50plus           │                  60 │               31 │     2684.68 │          206.51 │
+│ unknown │ Tier 3    │ religious-fasting │ S6_50plus           │                  60 │               23 │     1915.46 │          191.55 │
+│ unknown │ Tier 3    │ marathon-prep     │ S6_50plus           │                  60 │               23 │     1898.42 │           316.4 │
+│ unknown │ Unknown   │ daily snack       │ S6_50plus           │                  60 │               20 │     4912.82 │          491.28 │
+│ unknown │ Unknown   │ religious-fasting │ S6_50plus           │                  60 │               12 │     1326.09 │          221.02 │
+│ unknown │ Unknown   │ road-trip         │ S6_50plus           │                  60 │               12 │      1033.2 │           147.6 │
+│ unknown │ Unknown   │ festive           │ S6_50plus           │                  60 │               10 │      848.21 │          169.64 │
+│ unknown │ Unknown   │ marathon-prep     │ S6_50plus           │                  60 │               10 │      812.67 │           116.1 │
+│ unknown │ Unknown   │ gym               │ S6_50plus           │                  60 │                8 │      715.13 │          178.78 │
+│ unknown │ Unknown   │ late-night        │ S6_50plus           │                  60 │                9 │      709.48 │           141.9 │
+│ unknown │ Unknown   │ on-the-go         │ S2_10to19           │                  15 │               36 │      581.41 │           44.72 │
+└─────────┴───────────┴───────────────────┴─────────────────────┴─────────────────────┴──────────────────┴─────────────┴─────────────────┘
+  160 rows (40 shown)                                     use .last to show entire result                                      8 columns

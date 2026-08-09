@@ -1,0 +1,49 @@
+┌───────────────────────────────────────────────────────┬──────────────────┬───────────┬─────────────┬───────────────┐
+│                        claims                         │ num_transactions │ avg_price │ total_units │ total_revenue │
+│                        varchar                        │      int64       │  double   │   int128    │    double     │
+├───────────────────────────────────────────────────────┼──────────────────┼───────────┼─────────────┼───────────────┤
+│ low-sugar, clean-label                                │              315 │    363.11 │        1259 │     388309.49 │
+│ clean-label, jain-friendly, kosher                    │              327 │    312.48 │        1633 │     312397.74 │
+│ low-sugar, keto-friendly, jain-friendly               │              313 │    257.67 │        1465 │     295147.67 │
+│ keto-friendly, plant-based                            │              319 │    246.58 │        1193 │     205058.91 │
+│ high-protein, low-sugar, nut-free                     │              320 │    231.39 │        1334 │     236612.35 │
+│ vegan, low-sugar, diabetic-friendly, keto-friendly    │              293 │    228.95 │        1242 │     277686.87 │
+│ vegan, halal, high-protein                            │              286 │    221.86 │        1898 │     318418.13 │
+│ vegan, nut-free                                       │              309 │    218.44 │        1626 │     222835.56 │
+│ nut-free, clean-label, diabetic-friendly              │              332 │    203.61 │        1520 │     207542.08 │
+│ gluten-free, jain-friendly                            │              339 │    194.48 │        1942 │     257921.01 │
+│ halal, clean-label, gluten-free, vegan                │              330 │    178.72 │        1734 │     188806.79 │
+│ keto-friendly, vegan, low-sugar, diabetic-friendly    │              282 │    164.12 │        1834 │      170839.4 │
+│ clean-label, jain-friendly, halal, vegan              │              345 │    145.15 │        1103 │     116549.19 │
+│ kosher, jain-friendly, low-sugar, diabetic-friendly   │              310 │    135.55 │        1358 │     160966.78 │
+│ keto-friendly, gluten-free, jain-friendly             │              319 │    124.47 │        1247 │     143648.78 │
+│ gluten-free, high-protein, jain-friendly, kosher      │              330 │    121.71 │        1393 │     125825.86 │
+│ gluten-free, halal                                    │              659 │    120.38 │        2445 │      246988.2 │
+│ halal, keto-friendly, low-sugar                       │              306 │    108.96 │        1512 │      113806.5 │
+│ high-protein                                          │             1329 │     94.49 │        6507 │     409716.49 │
+│ halal, kosher, keto-friendly, nut-free                │              301 │     88.12 │         937 │      56484.31 │
+│                   ·                                   │               ·  │       ·   │          ·  │          ·    │
+│                   ·                                   │               ·  │       ·   │          ·  │          ·    │
+│                   ·                                   │               ·  │       ·   │          ·  │          ·    │
+│ diabetic-friendly, jain-friendly, high-protein, vegan │              315 │     20.33 │        1333 │      17853.75 │
+│ halal, clean-label                                    │              342 │     20.13 │        1201 │      19566.95 │
+│ keto-friendly, low-sugar, gluten-free, jain-friendly  │              333 │     19.95 │        1073 │      21415.39 │
+│ halal                                                 │             1011 │     18.68 │        3323 │       49274.6 │
+│ high-protein, halal                                   │              319 │     18.44 │        1407 │      16873.36 │
+│ plant-based, high-protein, keto-friendly              │              323 │     18.09 │        1311 │      19257.23 │
+│ nut-free, jain-friendly, clean-label, keto-friendly   │              367 │     17.51 │        1757 │      30685.25 │
+│ jain-friendly, diabetic-friendly                      │              630 │     17.42 │        2017 │      26911.28 │
+│ plant-based, low-sugar, kosher                        │              333 │     16.88 │        1252 │      17089.35 │
+│ vegan, diabetic-friendly, kosher                      │              297 │     16.58 │        1478 │      15763.63 │
+│ gluten-free, kosher                                   │              661 │     15.81 │        3128 │       35931.8 │
+│ gluten-free, plant-based                              │              325 │     15.32 │        1270 │      12269.61 │
+│ high-protein, gluten-free, halal                      │              319 │     14.25 │        1254 │      14075.52 │
+│ gluten-free                                           │              639 │     13.93 │        3480 │      38468.25 │
+│ gluten-free, keto-friendly, kosher, low-sugar         │              328 │     13.63 │        1750 │      17689.86 │
+│ high-protein, jain-friendly, nut-free                 │              350 │     12.86 │        1366 │       14162.3 │
+│ jain-friendly, gluten-free, vegan                     │              353 │      11.7 │        2452 │      21275.42 │
+│ high-protein, gluten-free, diabetic-friendly, kosher  │              321 │     10.77 │        2537 │      23245.15 │
+│ gluten-free, halal, kosher                            │              327 │     10.71 │        1278 │       9950.02 │
+│ gluten-free, jain-friendly, plant-based               │              326 │      8.92 │        1618 │      11420.21 │
+└───────────────────────────────────────────────────────┴──────────────────┴───────────┴─────────────┴───────────────┘
+  118 rows (40 shown)                           use .last to show entire result                            5 columns

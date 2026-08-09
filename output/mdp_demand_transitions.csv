@@ -1,0 +1,36 @@
+┌─────────┬──────────────┬─────────────┬────────────┬───────────────────┐
+│ persona │ price_bucket │ total_units │ prev_units │ pct_demand_change │
+│ varchar │   varchar    │   int128    │   int128   │      double       │
+├─────────┼──────────────┼─────────────┼────────────┼───────────────────┤
+│ budget  │ S1_under10   │        9706 │       NULL │              NULL │
+│ budget  │ S2_10to19    │       17545 │       9706 │              80.8 │
+│ budget  │ S3_20to29    │        5054 │      17545 │             -71.2 │
+│ budget  │ S4_30to39    │        4115 │       5054 │             -18.6 │
+│ budget  │ S5_40to49    │        2563 │       4115 │             -37.7 │
+│ budget  │ S6_50plus    │        8770 │       2563 │             242.2 │
+│ casual  │ S1_under10   │        9784 │       NULL │              NULL │
+│ casual  │ S2_10to19    │       16898 │       9784 │              72.7 │
+│ casual  │ S3_20to29    │        4830 │      16898 │             -71.4 │
+│ casual  │ S4_30to39    │        3445 │       4830 │             -28.7 │
+│ casual  │ S5_40to49    │        2682 │       3445 │             -22.1 │
+│ casual  │ S6_50plus    │        8456 │       2682 │             215.3 │
+│ fitness │ S1_under10   │       12465 │       NULL │              NULL │
+│ fitness │ S2_10to19    │       15810 │      12465 │              26.8 │
+│ fitness │ S3_20to29    │        6329 │      15810 │             -60.0 │
+│ fitness │ S4_30to39    │        3602 │       6329 │             -43.1 │
+│ fitness │ S5_40to49    │        2566 │       3602 │             -28.8 │
+│ fitness │ S6_50plus    │        8752 │       2566 │             241.1 │
+│ premium │ S1_under10   │       10811 │       NULL │              NULL │
+│ premium │ S2_10to19    │       15659 │      10811 │              44.8 │
+│ premium │ S3_20to29    │        7602 │      15659 │             -51.5 │
+│ premium │ S4_30to39    │        4055 │       7602 │             -46.7 │
+│ premium │ S5_40to49    │        2609 │       4055 │             -35.7 │
+│ premium │ S6_50plus    │        6592 │       2609 │             152.7 │
+│ unknown │ S1_under10   │        2852 │       NULL │              NULL │
+│ unknown │ S2_10to19    │        4153 │       2852 │              45.6 │
+│ unknown │ S3_20to29    │        1864 │       4153 │             -55.1 │
+│ unknown │ S4_30to39    │         651 │       1864 │             -65.1 │
+│ unknown │ S5_40to49    │         318 │        651 │             -51.2 │
+│ unknown │ S6_50plus    │        2014 │        318 │             533.3 │
+└─────────┴──────────────┴─────────────┴────────────┴───────────────────┘
+  30 rows                                                     5 columns

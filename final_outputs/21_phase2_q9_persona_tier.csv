@@ -1,0 +1,26 @@
+┌───────────┬─────────┬───────────┬───────────────┐
+│ city_tier │ persona │ avg_price │ total_revenue │
+│  varchar  │ varchar │  double   │    double     │
+├───────────┼─────────┼───────────┼───────────────┤
+│ Tier 1    │ budget  │     31.39 │     612941.76 │
+│ Tier 1    │ casual  │     31.17 │     519000.37 │
+│ Tier 1    │ fitness │     30.95 │      490851.1 │
+│ Tier 1    │ premium │     30.86 │     462393.88 │
+│ Tier 2    │ fitness │     31.59 │     446681.25 │
+│ Tier 2    │ premium │     30.92 │     420603.08 │
+│ Tier 2    │ casual  │     31.66 │     394212.33 │
+│ Tier 2    │ budget  │     30.89 │     379391.98 │
+│ Tier 3    │ casual  │      26.9 │     352439.84 │
+│ Tier 3    │ fitness │     27.47 │     295858.89 │
+│ Tier 3    │ budget  │     27.35 │     267573.68 │
+│ Unknown   │ premium │     30.82 │     215360.83 │
+│ Tier 3    │ premium │     27.65 │     211214.34 │
+│ Unknown   │ casual  │     31.75 │     152000.78 │
+│ Unknown   │ fitness │     30.55 │     133938.26 │
+│ Tier 1    │ unknown │     31.37 │     132282.88 │
+│ Unknown   │ budget  │     30.75 │     129709.56 │
+│ Tier 2    │ unknown │     30.32 │     128661.75 │
+│ Tier 3    │ unknown │     26.79 │       44687.4 │
+│ Unknown   │ unknown │     30.42 │      17442.33 │
+└───────────┴─────────┴───────────┴───────────────┘
+  20 rows                               4 columns
