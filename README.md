@@ -31,5 +31,12 @@ This analysis transitioned from raw transaction logs to a structured pricing pol
 * *Tracking Constraints:* Lacks individual-level repeat-purchase history.
 * *External Factors:* Competitor data was limited and not directly mapped to internal product lines.
 
+## 7. Contributors
+
+* **Shrish Uttarwar** — [GitHub](https://github.com/shrish-29331)
+* **Jasvindar Singh** — [GitHub](https://github.com/jasvindar123)
+* **Jaismeen Kaur** — [GitHub](https://github.com/jais2615)
+
+
 ---
 *Prepared for the Executive Leadership Team.*
